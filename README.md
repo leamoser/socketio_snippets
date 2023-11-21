@@ -140,6 +140,16 @@ io.on('connection', (socket) => {
 });
 ```
 
+### 08.a
+```javascript
+const socket = io();
+```
+
+### 08.b
+```html
+<script src="/socket.io/socket.io.js"></script>
+```
+
 ### 09
 ```javascript
 const form = document.querySelector('#form');
